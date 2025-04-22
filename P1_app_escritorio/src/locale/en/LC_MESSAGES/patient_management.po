@@ -1,0 +1,266 @@
+# English translations for ipm package.
+# Copyright (C) 2024 THE ipm'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ipm package.
+# Willy <willy@willy-katana-17-b13vgk>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ipm 2425-p_escritorio-ramones-main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-27 01:19+0200\n"
+"PO-Revision-Date: 2024-10-27 01:20+0200\n"
+"Last-Translator: Willy <willy@willy-katana-17-b13vgk>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: presenter.py:58 presenter.py:97
+msgid "No more patients"
+msgstr "No more patients"
+
+#: presenter.py:115
+msgid "Paciente {} agregado con éxito."
+msgstr "Paciente {} agregado con éxito."
+
+#: presenter.py:118
+msgid "Error al agregar paciente: {}"
+msgstr "Error al agregar paciente: {}"
+
+#: presenter.py:134
+msgid "Paciente {} actualizado con éxito."
+msgstr "Paciente {} actualizado con éxito."
+
+#: presenter.py:151
+msgid "Paciente eliminado con éxito."
+msgstr "Paciente eliminado con éxito."
+
+#: presenter.py:210 presenter.py:315
+msgid "El campo '{}' es requerido y no puede estar vacío"
+msgstr "El campo '{}' es requerido y no puede estar vacío"
+
+#: presenter.py:221
+msgid "La fecha de inicio debe estar en formato YYYY-MM-DD"
+msgstr "La fecha de inicio debe estar en formato YYYY-MM-DD"
+
+#: presenter.py:224
+msgid "Medicamento {} agregado con éxito."
+msgstr "Medicamento {} agregado con éxito."
+
+#: presenter.py:228
+msgid "Error en los datos del medicamento: {}"
+msgstr "Error en los datos del medicamento: {}"
+
+#: presenter.py:230
+msgid "Error del modelo: {}"
+msgstr "Error del modelo: {}"
+
+#: presenter.py:232
+msgid "Error inesperado: {}"
+msgstr "Error inesperado: {}"
+
+#: presenter.py:249
+msgid "Medicamento {} actualizado con éxito."
+msgstr "Medicamento {} actualizado con éxito."
+
+#: presenter.py:266
+msgid "Medicamento eliminado con éxito."
+msgstr "Medicamento eliminado con éxito."
+
+#: presenter.py:325
+msgid "Posologías agregadas con éxito."
+msgstr "Posologías agregadas con éxito."
+
+#: presenter.py:331 presenter.py:360
+msgid "Error en los datos de la posología: {}"
+msgstr "Error en los datos de la posología: {}"
+
+#: presenter.py:357
+msgid "Posología actualizada con éxito."
+msgstr "Posología actualizada con éxito."
+
+#: view.py:111 view.py:122
+msgid "PACIENTES"
+msgstr "PACIENTES"
+
+#: view.py:129
+msgid "Buscar paciente..."
+msgstr "Buscar paciente..."
+
+#: view.py:136
+msgid "Apellido   Nombre   Code"
+msgstr "Apellido   Nombre   Code"
+
+#: view.py:182
+msgid "Añadir paciente"
+msgstr "Añadir paciente"
+
+#: view.py:204
+msgid "Aceptar"
+msgstr "Aceptar"
+
+#: view.py:254
+msgid "Añadir Paciente"
+msgstr "Añadir Paciente"
+
+#: view.py:265
+msgid "Código del paciente:"
+msgstr "Código del paciente:"
+
+#: view.py:268
+msgid "Código  del paciente"
+msgstr "Código  del paciente"
+
+#: view.py:272
+msgid "Nombre del paciente:"
+msgstr "Nombre del paciente:"
+
+#: view.py:275
+msgid "Nombre del paciente"
+msgstr "Nombre del paciente"
+
+#: view.py:279
+msgid "Apellido del paciente:"
+msgstr "Apellido del paciente:"
+
+#: view.py:282
+msgid "Apellido del paciente"
+msgstr "Apellido del paciente"
+
+#: view.py:291 view.py:489 view.py:757
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#: view.py:296 view.py:494
+msgid "Añadir"
+msgstr "Añadir"
+
+#: view.py:310
+msgid "Todos los campos son obligatorios."
+msgstr "Todos los campos son obligatorios."
+
+#: view.py:315
+msgid "code"
+msgstr "code"
+
+#: view.py:316
+msgid "name"
+msgstr "name"
+
+#: view.py:317
+msgid "surname"
+msgstr "surname"
+
+#: view.py:342
+msgid "DETALLES PACIENTE"
+msgstr "DETALLES PACIENTE"
+
+#: view.py:397 view.py:414
+msgid "Añadir Medicamento"
+msgstr "Añadir Medicamento"
+
+#: view.py:404
+msgid "Eliminar Paciente"
+msgstr "Eliminar Paciente"
+
+#: view.py:431 view.py:689
+msgid "Nombre del medicamento:"
+msgstr "Nombre del medicamento:"
+
+#: view.py:435 view.py:693
+msgid "Nombre del medicamento"
+msgstr "Nombre del medicamento"
+
+#: view.py:440 view.py:698
+msgid "Dosis:"
+msgstr "Dosis:"
+
+#: view.py:444 view.py:702
+msgid "Dosis"
+msgstr "Dosis"
+
+#: view.py:449 view.py:707
+msgid "Fecha de inicio:"
+msgstr "Fecha de inicio:"
+
+#: view.py:453 view.py:711
+msgid "Fecha de inicio (YYYY-MM-DD)"
+msgstr "Fecha de inicio (YYYY-MM-DD)"
+
+#: view.py:458 view.py:716
+msgid "Duración del tratamiento:"
+msgstr "Duración del tratamiento:"
+
+#: view.py:462 view.py:720
+msgid "Duración del tratamiento (días)"
+msgstr "Duración del tratamiento (días)"
+
+#: view.py:473 view.py:731
+msgid "Posologías:"
+msgstr "Posologías:"
+
+#: view.py:478 view.py:736
+msgid "Posologías (HH:MM separadas por comas)"
+msgstr "Posologías (HH:MM separadas por comas)"
+
+#: view.py:546 view.py:826
+msgid "Error en los datos ingresados: {}"
+msgstr "Error en los datos ingresados: {}"
+
+#: view.py:561
+msgid "¿Está seguro de que desea eliminar este paciente?"
+msgstr "¿Está seguro de que desea eliminar este paciente?"
+
+#: view.py:562 view.py:864
+msgid "Esta acción no se puede deshacer."
+msgstr "Esta acción no se puede deshacer."
+
+#: view.py:587
+msgid "Detalles del medicamento"
+msgstr "Detalles del medicamento"
+
+#: view.py:620
+msgid "Dosis: {}"
+msgstr "Dosis: {}"
+
+#: view.py:624
+msgid "Fecha de inicio: {}"
+msgstr "Fecha de inicio: {}"
+
+#: view.py:628
+msgid "Duración del tratamiento: {} días"
+msgstr "Duración del tratamiento: {} días"
+
+#: view.py:633
+msgid "Posologías"
+msgstr "Posologías"
+
+#: view.py:642
+msgid "No hay posologías asignadas."
+msgstr "No hay posologías asignadas."
+
+#: view.py:658
+msgid "Editar"
+msgstr "Editar"
+
+#: view.py:672
+msgid "Editar Medicamento"
+msgstr "Editar Medicamento"
+
+#: view.py:762
+msgid "Guardar"
+msgstr "Guardar"
+
+#: view.py:767
+msgid "Eliminar"
+msgstr "Eliminar"
+
+#: view.py:823
+msgid "Se han guardado los cambios correctamente"
+msgstr "Se han guardado los cambios correctamente"
+
+#: view.py:863
+msgid "¿Está seguro de que desea eliminar este medicamento?"
+msgstr "¿Está seguro de que desea eliminar este medicamento?"

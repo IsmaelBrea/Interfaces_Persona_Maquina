@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicación web que permite al personal sanitario consultar los informes de seguimiento de los pacientes.">
+    <meta name="author" content="Mateo Aguirre Cancela | Ismael Brea Arias | Sergio Liste Vázquez">
+    <meta name="keywords" content="Medication App, Medicamentos, Informes, Pacientes, Toma de medicamentos">
+    <!--Icono-->
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    <!--Estilos-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Titulo de la pagina-->
+    <title>Medication App</title>
+</head>
+<body>
+    <header class="titulo">
+        <h1><a href="index.html" lang="en">Medication App</a></h1>
+    </header>
+    <div class="contenedor">
+        <aside class="buscadorPaciente" aria-labelledby="pacientes-heading">
+            <h2 id="pacientes-heading">Pacientes</h2>
+            <form method="GET" role="search" aria-label="Buscar paciente">
+                <label for="idPaciente">Buscar paciente:</label>
+                <input type="text" placeholder="Buscar paciente" class="idPaciente" id="idPaciente" aria-label="Ingrese ID o nombre del paciente">
+            </form>
+
+            <ul class="listaPacientes" id="listaPacientes" aria-live="polite" aria-label="Lista de pacientes">
+                
+            </ul>
+
+        </aside>
+        <main>
+            <section class="infoPaciente" aria-labelledby="infoPaciente-heading">
+                <h2 id="infoPaciente-heading">Información del Paciente</h2>
+                <div id="infoPaciente" role="region" aria-live="polite">
+                    <div class="fila">
+                        <span class="negrita">ID:</span>
+                        <p>ID del Paciente</p>
+                    </div>
+                    <div class="fila">
+                        <span class="negrita">Nombre:</span>
+                        <p>Nombre del Paciente</p>    
+                    </div>
+                    <div class="fila">
+                        <span class="negrita">Apellidos:</span>
+                        <p>Apellidos del Paciente</p>
+                    </div>
+                    <div class="fila">
+                        <span class="negrita">Código:</span>
+                        <p>Código del Paciente</p>    
+                    </div>
+                </div>
+                <span class="med" id="med">Medicamentos:</span>
+                <div class="medicamentos" id="medicamentos" role="list" aria-live="polite" aria-labelledby="med">
+                    <p>Medicamentos</p>    
+                </div>
+            </section>
+            <section class="buscadorInforme" aria-labelledby="buscadorInforme-heading">
+                <h2 id="buscadorInforme-heading">Buscar Informe</h2>
+                <fieldset class="periodo" aria-labelledby="periodo-legend">
+                    <legend id="periodo-legend">Período de tiempo:</legend>
+                    <div class="opciones" role="radiogroup" aria-label="Opciones de período de tiempo">
+                        <div class="opcion">
+                            <input type="radio" name="periodo" id="ultimoMes" value="ultimoMes" checked>
+                            <label for="ultimoMes">Último mes</label>
+                        </div>
+                        <div class="opcion">
+                            <input type="radio" name="periodo" id="ultimosNDias" value="ultimosNDias">
+                            <label for="ultimosNDias">Últimos N días</label>
+                        </div>
+                        <div class="opcion">
+                            <input type="radio" name="periodo" id="entreFechas" value="entreFechas">
+                            <label for="entreFechas">Entre dos fechas</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <form aria-label="Formulario para buscar informe">
+                    <div class="nDias" id="nDias" aria-hidden="true">
+                        <label for="numeroDias">Número de días:</label>
+                        <input type="number" name="numeroDias" id="numeroDias" class="numeroDias" placeholder="Número de días" min="1" aria-label="Ingrese el número de días">
+                    </div>
+                    <div class="eFechas" id="eFechas" aria-hidden="true">
+                        <div>
+                            <label for="fechaInicio">Fecha de Inicio:</label>
+                            <input type="date" name="fechaInicio" id="fechaInicio" class="fechas" aria-label="Seleccione la fecha de inicio">
+                        </div>
+                        <div>
+                            <label for="fechaFin">Fecha de Fin:</label>
+                            <input type="date" name="fechaFin" id="fechaFin" class="fechas" aria-label="Seleccione la fecha de fin">
+                        </div>
+                    </div>
+                    <button type="submit" aria-label="Buscar informe">Buscar Informe</button>
+                </form>
+            </section>
+            <section class="informe" aria-labelledby="informe-heading">
+                <h2 id="informe-heading">Informe</h2>
+                <article class="intakes" aria-labelledby="tomas-heading">
+                    <h3 id="tomas-heading">Tomas:</h3>
+                    <div class="tomas" id="tomas" role="list" aria-live="polite" aria-label="Lista de tomas de medicamentos">
+                        <div class="toma" role="listitem">
+                            <span class="negrita">Fecha</span>
+                            <p>Hora de la Toma</p>
+                        </div>
+                    </div>
+                </article>
+
+            </section>
+        </main>
+    </div>
+    <footer class="pie">
+        <p>&copy; 2024 Medication App</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

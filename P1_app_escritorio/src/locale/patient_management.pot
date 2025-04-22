@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-27 01:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: presenter.py:58 presenter.py:97
+msgid "No more patients"
+msgstr "No more patients"
+
+#: presenter.py:115
+msgid "Paciente {} agregado con éxito."
+msgstr "Patient {} added successfully."
+
+#: presenter.py:118
+msgid "Error al agregar paciente: {}"
+msgstr "Error adding patient: {}"
+
+#: presenter.py:134
+msgid "Paciente {} actualizado con éxito."
+msgstr "Patient {} updated successfully."
+
+#: presenter.py:151
+msgid "Paciente eliminado con éxito."
+msgstr "Patient deleted successfully."
+
+#: presenter.py:210 presenter.py:315
+msgid "El campo '{}' es requerido y no puede estar vacío"
+msgstr "The field '{}' is required and cannot be empty."
+
+#: presenter.py:221
+msgid "La fecha de inicio debe estar en formato YYYY-MM-DD"
+msgstr "The start date must be in YYYY-MM-DD format."
+
+#: presenter.py:224
+msgid "Medicamento {} agregado con éxito."
+msgstr "Medication {} added successfully."
+
+#: presenter.py:228
+msgid "Error en los datos del medicamento: {}"
+msgstr "Error in medication data: {}"
+
+#: presenter.py:230
+msgid "Error del modelo: {}"
+msgstr "Model error: {}"
+
+#: presenter.py:232
+msgid "Error inesperado: {}"
+msgstr "Unexpected error: {}"
+
+#: presenter.py:249
+msgid "Medicamento {} actualizado con éxito."
+msgstr "Medication {} updated successfully."
+
+#: presenter.py:266
+msgid "Medicamento eliminado con éxito."
+msgstr "Medication deleted successfully."
+
+#: presenter.py:325
+msgid "Posologías agregadas con éxito."
+msgstr "Dosages added successfully."
+
+#: presenter.py:331 presenter.py:360
+msgid "Error en los datos de la posología: {}"
+msgstr "Error in dosage data: {}"
+
+#: presenter.py:357
+msgid "Posología actualizada con éxito."
+msgstr "Dosage updated successfully."
+
+#: view.py:111 view.py:122
+msgid "PACIENTES"
+msgstr "PATIENTS"
+
+#: view.py:129
+msgid "Buscar paciente..."
+msgstr "Search patient..."
+
+#: view.py:136
+msgid "Apellido   Nombre   Code"
+msgstr "Last Name   First Name   Code"
+
+#: view.py:182
+msgid "Añadir paciente"
+msgstr "Add patient"
+
+#: view.py:204
+msgid "Aceptar"
+msgstr "Accept"
+
+#: view.py:254
+msgid "Añadir Paciente"
+msgstr "Add Patient"
+
+#: view.py:265
+msgid "Código del paciente:"
+msgstr "Patient code:"
+
+#: view.py:268
+msgid "Código  del paciente"
+msgstr "Patient code"
+
+#: view.py:272
+msgid "Nombre del paciente:"
+msgstr "Patient's first name:"
+
+#: view.py:275
+msgid "Nombre del paciente"
+msgstr "Patient's first name"
+
+#: view.py:279
+msgid "Apellido del paciente:"
+msgstr "Patient's last name:"
+
+#: view.py:282
+msgid "Apellido del paciente"
+msgstr "Patient's last name"
+
+#: view.py:291 view.py:489 view.py:757
+msgid "Cancelar"
+msgstr "Cancel"
+
+#: view.py:296 view.py:494
+msgid "Añadir"
+msgstr "Add"
+
+#: view.py:310
+msgid "Todos los campos son obligatorios."
+msgstr "All fields are required."
+
+#: view.py:315
+msgid "code"
+msgstr "code"
+
+#: view.py:316
+msgid "name"
+msgstr "name"
+
+#: view.py:317
+msgid "surname"
+msgstr "surname"
+
+#: view.py:342
+msgid "DETALLES PACIENTE"
+msgstr "PATIENT DETAILS"
+
+#: view.py:397 view.py:414
+msgid "Añadir Medicamento"
+msgstr "Add Medication"
+
+#: view.py:404
+msgid "Eliminar Paciente"
+msgstr "Delete Patient"
+
+#: view.py:431 view.py:689
+msgid "Nombre del medicamento:"
+msgstr "Medication name:"
+
+#: view.py:435 view.py:693
+msgid "Nombre del medicamento"
+msgstr "Medication name"
+
+#: view.py:440 view.py:698
+msgid "Dosis:"
+msgstr "Dosage:"
+
+#: view.py:444 view.py:702
+msgid "Dosis"
+msgstr "Dosage"
+
+#: view.py:449 view.py:707
+msgid "Fecha de inicio:"
+msgstr "Start date:"
+
+#: view.py:453 view.py:711
+msgid "Fecha de inicio (YYYY-MM-DD)"
+msgstr "Start date (YYYY-MM-DD)"
+
+#: view.py:458 view.py:716
+msgid "Duración del tratamiento:"
+msgstr "Treatment duration:"
+
+#: view.py:462 view.py:720
+msgid "Duración del tratamiento (días)"
+msgstr "Treatment duration (days)"
+
+#: view.py:473 view.py:731
+msgid "Posologías:"
+msgstr "Dosages:"
+
+#: view.py:478 view.py:736
+msgid "Posologías (HH:MM separadas por comas)"
+msgstr "Dosages (HH:MM separated by commas)"
+
+#: view.py:546 view.py:826
+msgid "Error en los datos ingresados: {}"
+msgstr "Error in entered data: {}"
+
+#: view.py:561
+msgid "¿Está seguro de que desea eliminar este paciente?"
+msgstr "Are you sure you want to delete this patient?"
+
+#: view.py:562 view.py:864
+msgid "Esta acción no se puede deshacer."
+msgstr "This action cannot be undone."
+
+#: view.py:587
+msgid "Detalles del medicamento"
+msgstr "Medication details"
+
+#: view.py:620
+msgid "Dosis: {}"
+msgstr "Dosage: {}"
+
+#: view.py:624
+msgid "Fecha de inicio: {}"
+msgstr "Start date: {}"
+
+#: view.py:628
+msgid "Duración del tratamiento: {} días"
+msgstr "Treatment duration: {} days"
+
+#: view.py:633
+msgid "Posologías"
+msgstr "Dosages"
+
+#: view.py:642
+msgid "No hay posologías asignadas."
+msgstr "No dosages assigned."
+
+#: view.py:658
+msgid "Editar"
+msgstr "Edit"
+
+#: view.py:672
+msgid "Editar Medicamento"
+msgstr "Edit Medication"
+
+#: view.py:762
+msgid "Guardar"
+msgstr "Save"
+
+#: view.py:767
+msgid "Eliminar"
+msgstr "Delete"
+
+#: view.py:823
+msgid "Se han guardado los cambios correctamente"
+msgstr "Changes have been saved successfully."
+
+#: view.py:863
+msgid "¿Está seguro de que desea eliminar este medicamento?"
+msgstr "Are you sure you want to delete this medication?"
+
