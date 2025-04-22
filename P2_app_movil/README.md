@@ -26,10 +26,7 @@ Este repositorio contiene:
 
 ## Miembros del equipo:
 
-- Brea Arias, Ismael : IsmaelBrea : ismael.brea : Curador-Traductor
-- Liste Vázquez, Sergio : willy3604 : sergio.liste : Administrador
-- Aguirre Cancela, Mateo : mateoaguirrecancela : mateo.aguirre : Analista
-
+- Brea Arias, Ismael : IsmaelBrea
 
 ## Pasos para realizar la práctica
 
