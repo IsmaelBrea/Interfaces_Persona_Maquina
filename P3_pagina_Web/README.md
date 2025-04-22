@@ -26,10 +26,7 @@ Este repositorio contiene:
   
 ## Miembros del equipo:
 
-- Brea Arias, Ismael : ismael.brea : udc username : Administrador
-- Liste Vázquez, Sergio : willy3604 : udc username : Analista
-- Aguirre Cancela, Mateo : mateo.aguirre : udc username : Curador-Traductor
-
+- Brea Arias, Ismael : IsmaelBrea
 
 ## Pasos para realizar la práctica
 
